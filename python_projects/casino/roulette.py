@@ -4,7 +4,7 @@ import sys
 name = input("vad är ditt namn? ")
 name = name.lower().replace(" ", "").removesuffix("\n")
 balance = 100
-print(f"välkommen {name.lower().replace(' ', '')} till roulette! du börjar med {balance} kr att spela med.")
+print(f"välkommen, {name.lower().replace(' ', '')} till roulette! du börjar med {balance} kr att spela med.")
 
 while True:
     list_even = [0,2,4,6,8,10,12,14,16,18,20,22,24,26,28,30,32,34,36]

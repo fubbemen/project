@@ -55,6 +55,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST" && isset($_POST["new_content"], $_POST
 <head>
     <title>Dashboard</title>
     <link rel="stylesheet" href="style1.css">
+    <link rel="shortcut icon" type="image/x-icon" href="php.png" />
 </head>
 <body>
 
@@ -68,7 +69,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST" && isset($_POST["new_content"], $_POST
 </form>
 
 <!-- Logout button -->
-<form method="POST" action="logout.php" style="margin-top:20px;">
+<form method="POST" action="index.php" style="margin-top:20px;">
     <button type="submit" name="logout">Logout</button>
 </form>
 
